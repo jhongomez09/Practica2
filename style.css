@@ -1,0 +1,79 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.nav-link li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 14px;
+}
+
+.nav-link li a:hover {
+    color: yellow;
+}
+
+
+.nav-logo {
+    width: 10rem;
+    height: auto;
+    margin-left: 3rem;
+}
+
+/* Form Section */
+.form-section {
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+}
+
+.header-form {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+.form-container {
+    padding: 3%;
+    width: 75%;
+    border-radius: .5rem;
+    -webkit-box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 28px -1px rgba(0,0,0,0.75);
+}
+
+/* Inputs */
+
+
+
+.names-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;  /* Nombres */
+    margin: 2%;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;  /* Nombres */
+    margin: 2%;
+}
+
+.segundos-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;  /* Nombres */
+    margin: 2%;
+}
+
+.form-input {
+    border-radius: .2rem;
+    border: 1px solid #ccc;
+    padding: .3rem;
+}
+
+
